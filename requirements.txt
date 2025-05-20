@@ -6,3 +6,4 @@ plotly
 jupyter
 scipy
 streamlit
+scipy
