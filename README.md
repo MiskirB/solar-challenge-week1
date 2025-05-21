@@ -103,5 +103,5 @@ git branch -d old-branch
 📄 Final Report
 Check out the final_report_miskir.md or final_report_miskir.pdf for a complete Medium-style write-up summarizing Week 0 analysis, methodology, and findings.
 
-👨‍💻 Author
+# 👨‍💻 Author
 Miskir Besir Abshir
