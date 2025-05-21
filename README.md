@@ -10,7 +10,13 @@ This repository presents data analysis and visualization tools developed for Sol
 
 🧼 Cleaned & Ready-to-Use Datasets
 
+<<<<<<< HEAD
 # 🚀 Live Dashboard
+=======
+🚀 Live Dashboard
+![Dashboard Screenshot](assets/dashboard_screenshot.png)
+
+>>>>>>> 67e4444 (WIP: local changes before pull rebase)
 Experience the interactive visualization in your browser:
 🔗 https://solar-challenge-week1-miskir.streamlit.app/
 
