@@ -1,5 +1,5 @@
-🌞 Solar Challenge Week 1 - Data Analysis Dashboard
-Countries: Benin 🇧🇯 | Sierra Leone 🇸🇱 | Togo 🇹🇬
+# 🌞 Solar Challenge Week 1 - Data Analysis Dashboard
+ Countries: Benin 🇧🇯 | Sierra Leone 🇸🇱 | Togo 🇹🇬
 
 This repository presents data analysis and visualization tools developed for Solar Challenge Week 1, focusing on solar energy metrics such as GHI (Global Horizontal Irradiance), DNI (Direct Normal Irradiance), and DHI (Diffuse Horizontal Irradiance) from three West African countries.
 
@@ -10,14 +10,12 @@ This repository presents data analysis and visualization tools developed for Sol
 
 🧼 Cleaned & Ready-to-Use Datasets
 
-🚀 Live Dashboard
+# 🚀 Live Dashboard
 Experience the interactive visualization in your browser:
 🔗 https://solar-challenge-week1-miskir.streamlit.app/
 
-📁 Project Structure
-bash
-Copy
-Edit
+# 📁 Project Structure
+
 solar-challenge-week1/
 │
 ├── app/ # Streamlit app
@@ -40,7 +38,7 @@ solar-challenge-week1/
 ├── README.md
 └── requirements.txt
 
-📊 Datasets
+# 📊 Datasets
 Datasets are stored in the data/ directory:
 
 benin.csv — Solar and energy-related data for Benin
@@ -52,7 +50,7 @@ togo.csv — Solar and energy-related data for Togo
 ⚠️ If you face encoding errors when loading CSV files, try using:
 pd.read_csv('filename.csv', encoding='latin1')
 
-🧪 Features
+# 🧪 Features
 Interactive dashboard with country comparisons on solar irradiance metrics
 
 Boxplots and ANOVA test results for GHI, DNI, and DHI
@@ -61,13 +59,13 @@ Side panel filters to select countries of interest
 
 EDA notebooks for in-depth insights
 
-🚀 Deployment Instructions (Streamlit Cloud)
+# 🚀 Deployment Instructions (Streamlit Cloud)
 Upload your repo to GitHub
 
 Ensure data files are not in .gitignore
 Go to Streamlit Cloud, connect your GitHub repo, and deploy the app/main.py file.
 
-🧰 Installation (Local)
+# 🧰 Installation (Local)
 
 # Create and activate a virtual environment
 
@@ -85,9 +83,6 @@ streamlit run app/main.py
 🌿 Working with Branches
 To explore or manage branches:
 
-bash
-Copy
-Edit
 
 # Show all branches (local + remote)
 
