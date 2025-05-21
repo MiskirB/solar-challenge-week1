@@ -1,15 +1,18 @@
-🌞 Solar Challenge Week 1 - Data Analysis Dashboard (Benin, Sierra Leone, Togo)
-This repository presents data analysis and visualization tools developed for Solar Challenge Week 1, focusing on solar energy metrics (GHI, DNI, DHI) from Benin, Sierra Leone, and Togo. It includes:
+🌞 Solar Challenge Week 1 - Data Analysis Dashboard
+Countries: Benin 🇧🇯 | Sierra Leone 🇸🇱 | Togo 🇹🇬
 
-Cleaned datasets
+This repository presents data analysis and visualization tools developed for Solar Challenge Week 1, focusing on solar energy metrics such as GHI (Global Horizontal Irradiance), DNI (Direct Normal Irradiance), and DHI (Diffuse Horizontal Irradiance) from three West African countries.
 
-Jupyter Notebooks for Exploratory Data Analysis (EDA)
+🧩 What’s Inside:
+📊 Jupyter Notebooks for EDA
 
-A Streamlit web dashboard for interactive data exploration
+📈 Interactive Streamlit Dashboard
 
-📊 Live Demo
-🚀 Check out the live dashboard (hosted on Streamlit Cloud)
-📍 https://solar-challenge-week1-miskir.streamlit.app/
+🧼 Cleaned & Ready-to-Use Datasets
+
+🚀 Live Dashboard
+Experience the interactive visualization in your browser:
+🔗 https://solar-challenge-week1-miskir.streamlit.app/
 
 📁 Project Structure
 bash
@@ -36,6 +39,7 @@ solar-challenge-week1/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
 📊 Datasets
 Datasets are stored in the data/ directory:
 
@@ -61,19 +65,9 @@ EDA notebooks for in-depth insights
 Upload your repo to GitHub
 
 Ensure data files are not in .gitignore
-
-bash
-Copy
-Edit
-git add -f data/
-git commit -m "Add data files for deployment"
-git push origin main
 Go to Streamlit Cloud, connect your GitHub repo, and deploy the app/main.py file.
 
 🧰 Installation (Local)
-bash
-Copy
-Edit
 
 # Create and activate a virtual environment
 
@@ -87,3 +81,32 @@ pip install -r requirements.txt
 # Run Streamlit dashboard
 
 streamlit run app/main.py
+
+🌿 Working with Branches
+To explore or manage branches:
+
+bash
+Copy
+Edit
+
+# Show all branches (local + remote)
+
+git branch -a
+
+# Create new branch
+
+git checkout -b feature/new-analysis
+
+# Switch to existing branch
+
+git checkout main
+
+# Delete branch
+
+git branch -d old-branch
+
+📄 Final Report
+Check out the final_report_miskir.md or final_report_miskir.pdf for a complete Medium-style write-up summarizing Week 0 analysis, methodology, and findings.
+
+👨‍💻 Author
+Miskir Besir Abshir
